@@ -1,1 +1,48 @@
-// TODO
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  &>img {
+    width: 238.62px;
+    height: 25.63px;
+  }
+
+  &>button {
+    width: max-content;
+
+    background: unset;
+
+    border: unset;
+
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--highlight);
+  }
+}
+
+.postsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.post {
+  color: var(--body);
+
+  &>strong {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--heading);
+
+    display: block;
+  }
+
+  &>span {
+    margin: 0.5rem 0 1.5rem;
+
+    font-size: 1.125rem;
+
+    display: inline-block;
+  }
+}
